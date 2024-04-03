@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Marketplace</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+        <img src="./2024-04-03 20.42.13.jpg" alt="" class="icon">
+		<h1>Marketplace</h1>
+
+	</header>
+	<main>
+		<section id="products">
+			<h2>Products</h2>
+			<div class="product" data-id="1" data-name="Product 1" data-price="100">
+				<h3>Macbook</h3>
+                <img src="./shopping.webp" alt="" class="image">
+				<p>$100</p>
+				<button class="add-to-cart">Add to Cart</button>
+	</div>
+			<div class="product" data-id="2" data-name="Product 2" data-price="200">
+				<h3>SmartWatch</h3>
+                <img src="./download.webp" alt="" class="image">
+				<p>$200</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+			<div class="product" data-id="3" data-name="Product 3" data-price="300">
+			<h3>IPhone</h3>
+            <img src="./shopping (1).webp" alt="" class="image">
+				<p>$300</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+		</section>
+		<section id="cart">
+			<h2>Cart</h2>
+			<ul id="cart-items"></ul>
+			<p>Total: $<span id="cart-total">0</span></p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2024 Marketplace</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
